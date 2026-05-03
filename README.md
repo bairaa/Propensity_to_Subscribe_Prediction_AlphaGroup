@@ -55,7 +55,7 @@ Model final: **LightGBM + Under-sampling + Threshold Tuning**, dievaluasi pada *
 |---|---|---|
 | **F6 Score Test ★** | **0,8245** | Metrik utama — mencerminkan minimalisasi biaya loss |
 | **F6 Score Val** | **0,8251** | Konfirmasi generalisasi |
-| **Gap (Train − Val)** | **+0,0015** | ✅ Good Fit — model siap di-deploy |
+| **Gap (Train − Val)** | **+0,0015** | Good Fit — model siap di-deploy |
 | **ROC-AUC Test** | **0,8000** | Diskriminasi model yang baik |
 
 ### Penghematan vs Pendekatan Tanpa Model
@@ -63,7 +63,7 @@ Model final: **LightGBM + Under-sampling + Threshold Tuning**, dievaluasi pada *
 | Pendekatan | Total Biaya Loss (Test Set) |
 |---|---|
 | **Tanpa Model** (Hubungi Semua) | €7.964,63 |
-| **Model ML + F6 Threshold** | **€7.948,07** ✅ |
+| **Model ML + F6 Threshold** | **€7.948,07** ★ |
 | **Penghematan** | **€16,56 (0,2%)** + ranking probabilitas |
 
 > Nilai utama model bukan hanya pada angka penghematan, tetapi pada **kemampuan ranking probabilitas** untuk Priority Tier dan **skalabilitas** ke populasi production puluhan ribu nasabah.
@@ -88,5 +88,5 @@ Notebook ini dibagi menjadi **8 bagian** yang saling melengkapi:
 ---
 
 <p align="center">
-  <b>Made with ❤️ by Alpha Group</b>
+  <b>Made with by Alpha Group</b>
 </p>
