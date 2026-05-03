@@ -1,6 +1,6 @@
 # Propensity_to_Subscribe_Prediction_AlphaGroup
 
-<h1 align="center">📞 Optimasi Telemarketing Perbankan</h1>
+<h1 align="center">Optimasi Telemarketing Perbankan</h1>
 <h3 align="center">Model Prediktif Minat Nasabah Terhadap Deposito Berjangka<br>Berbasis Minimalisasi Biaya Loss</h3>
 
 <p align="center">
@@ -8,20 +8,9 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Python-3.10+-3776AB?style=flat&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/scikit--learn-1.3+-F7931E?style=flat&logo=scikit-learn&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LightGBM-4.0+-00A98F?style=flat"/>
-  <img src="https://img.shields.io/badge/XGBoost-2.0+-EB6C2D?style=flat"/>
-  <img src="https://img.shields.io/badge/SHAP-Explainable_AI-9C27B0?style=flat"/>
-  <img src="https://img.shields.io/badge/Streamlit-Deployed-FF4B4B?style=flat&logo=streamlit&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Tableau-Dashboard-E97627?style=flat&logo=tableau&logoColor=white"/>
-  <img src="https://img.shields.io/badge/License-MIT-yellow.svg"/>
-</p>
-
-<p align="center">
-  <a href="https://termdepositpredictor-alpha.streamlit.app/"><b>🚀 Live Demo (Streamlit)</b></a> •
-  <a href="https://public.tableau.com/app/profile/muhammad.hafizh.hariyanto/viz/BankTelemarketingProfileofCostumersLikelytoSubscribetoTermDeposit/Dashboard2"><b>📊 Tableau Dashboard</b></a> •
-  <a href="https://www.kaggle.com/datasets/volodymyrgavrysh/bank-marketing-campaigns-dataset/data"><b>📂 Dataset</b></a>
+  <a href="https://termdepositpredictor-alpha.streamlit.app/"><b>Live Demo (Streamlit)</b></a> •
+  <a href="https://public.tableau.com/app/profile/muhammad.hafizh.hariyanto/viz/BankTelemarketingProfileofCostumersLikelytoSubscribetoTermDeposit/Dashboard2"><b>Tableau Dashboard</b></a> •
+  <a href="https://www.kaggle.com/datasets/volodymyrgavrysh/bank-marketing-campaigns-dataset/data"><b>Dataset</b></a>
 </p>
 
 ---
