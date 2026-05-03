@@ -47,3 +47,46 @@ Proyek ini membangun model prediktif **propensity-to-subscribe** yang menjawab p
 | **Rasio FN : FP** | **34,4 : 1** | Justifikasi pemakaian F6-Score (β=6) |
 
 ---
+## Hasil Akhir Model
+
+Model final: **LightGBM + Under-sampling + Threshold Tuning**, dievaluasi pada *held-out test set* (8.235 nasabah, 928 subscriber).
+
+| Metrik | Nilai | Interpretasi |
+|---|---|---|
+| **F6 Score Test ★** | **0,8245** | Metrik utama — mencerminkan minimalisasi biaya loss |
+| **F6 Score Val** | **0,8251** | Konfirmasi generalisasi |
+| **Gap (Train − Val)** | **+0,0015** | ✅ Good Fit — model siap di-deploy |
+| **ROC-AUC Test** | **0,8000** | Diskriminasi model yang baik |
+
+### Penghematan vs Pendekatan Tanpa Model
+
+| Pendekatan | Total Biaya Loss (Test Set) |
+|---|---|
+| **Tanpa Model** (Hubungi Semua) | €7.964,63 |
+| **Model ML + F6 Threshold** | **€7.948,07** ✅ |
+| **Penghematan** | **€16,56 (0,2%)** + ranking probabilitas |
+
+> Nilai utama model bukan hanya pada angka penghematan, tetapi pada **kemampuan ranking probabilitas** untuk Priority Tier dan **skalabilitas** ke populasi production puluhan ribu nasabah.
+
+---
+
+## Struktur Notebook
+
+Notebook ini dibagi menjadi **8 bagian** yang saling melengkapi:
+
+| Section | Topik | Output Utama |
+|---|---|---|
+| **1** | Business Understanding | Problem statement, struktur biaya, stakeholder |
+| **2** | Data Understanding | Deskripsi 21 fitur, statistik deskriptif |
+| **3** | Data Quality Check | Cek duplikat, missing, outlier, normalitas, korelasi |
+| **4** | Exploratory Data Analysis (EDA) | Subscription rate per fitur, segmentasi |
+| **5** | Data Preprocessing | Feature engineering (5 fitur baru), pipeline |
+| **6** | Methodology — Data Analytics | Descriptive + Inferential (Chi-Square, Mann-Whitney) |
+| **7** | Methodology — Machine Learning | Benchmark 18 kombinasi, tuning, threshold optimization, SHAP |
+| **8** | Conclusion & Recommendation | Insight bisnis + teknis untuk deployment |
+
+---
+
+<p align="center">
+  <b>Made with ❤️ by Alpha Group</b>
+</p>
